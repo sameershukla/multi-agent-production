@@ -1,4 +1,4 @@
-from chapter_02.observability.logging import log_event
+from chapter-02-agent-substrate.observability.logging import log_event
 from fraud_agent.config import MAX_ITERATIONS, MAX_TOKENS
 from fraud_agent.messages import make_tool_message
 from fraud_agent.model import MockFraudModel
