@@ -1,6 +1,6 @@
 import uuid
-from chapter_02.state.initialise import start_agent_run
-from chapter_02.observability.logging import log_event
+from chapter-02-agent-substrate.state.initialise import start_agent_run
+from chapter-02-agent-substrate.observability.logging import log_event
 from fraud_agent.graph import fraud_agent
 
 def investigate_transaction(tx: dict) -> dict:
