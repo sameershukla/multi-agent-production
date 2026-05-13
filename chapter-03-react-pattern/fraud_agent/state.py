@@ -1,5 +1,5 @@
 from typing import List, Optional
-from chapter_02.state.schema import AgentState
+from chapter-02-agent-substrate.state.schema import AgentState
 
 class FraudAgentState(AgentState, total=False):
     transaction_id: str
