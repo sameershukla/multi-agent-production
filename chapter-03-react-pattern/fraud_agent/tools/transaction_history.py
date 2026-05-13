@@ -1,4 +1,4 @@
-from chapter_02.tools.envelope import success_response, error_response
+from chapter-02-agent-substrate.tools.envelope import success_response, error_response
 
 def get_transaction_history(event: dict) -> dict:
     if not event.get('account_id'):
